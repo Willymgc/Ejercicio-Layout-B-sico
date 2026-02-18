@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <H1>Formulario de Inscripción a Competencia Escolar</H1>
+    <p>Usa este Formulario de Inscripción a Competencia Escolar para expresar tu intención de participar en la competencia que sea de tu interés. Los organizadores te contactarán para confirmar tu participación y para responder tus preguntas, si es que tienes alguna.</p>
+
+    <p>Por favor, confirma tu intención de participar en una competencia escolar mediante la colocación de tu firma en el formulario.</p>
+
+    <form action="#" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre completo*:</label>
+                    </td> 
+                    <td>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Curso">Curso/Grado*:</label>
+                    </td> 
+                    <td>
+                        <input type="text" id="Curso" name="Curso" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fecha_nacimiento">Fecha de nacimiento*:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="competencia">Competición en la que quieres participar*:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="matematicas" name="competencia" value="Matematicas" required> Atletismo<br>
+                        <input type="radio" id="ciencia" name="competencia" value="Ciencia" required> Deletreo<br>
+                        <input type="radio" id="literatura" name="competencia" value="Literatura" required> Olimpiadas matematicas<br>
+                        <input type="radio" id="arte" name="competencia" value="Arte" required> Artes<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="docente">Docente que te prepara para la competición*:</label>
+                    </td> 
+                    <td>
+                        <input type="text" id="docente" name="docente" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telefonodocente">Teléfono al que puedes ser contactado*:</label>
+                    </td> 
+                    <td>
+                        <input type="text" id="telefonodocente" name="telefonodocente" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="personadecontacto">Persona de contacto*:</label>
+                    </td> 
+                    <td>
+                        <input type="text" id="personadecontacto" name="personadecontacto" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telefonopersonadecontacto">Telefono de persona de contacto*:</label>
+                    </td> 
+                    <td>
+                        <input type="text" id="telefonopersonadecontacto" name="telefonopersonadecontacto" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="preguntaorganizadores">¿Tienes alguna pregunta para los organizadores?*:</label>
+                    </td> 
+                    <td>
+                        <textarea id="preguntaorganizadores" name="preguntaorganizadores" required rows="6" cols="21"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" style="width:20%;">Enviar</button>
+                    </td>
+                </tr>
+
+            </tbody>       
+        </table>
+</body>
+</html>

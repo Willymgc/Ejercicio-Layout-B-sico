@@ -1,0 +1,110 @@
+/* Margen general y reseteo */
+* {
+    margin: 0;/* Elimina el margen y el padding predeterminados para un diseño más limpio */
+    padding: 0;/* Elimina el margen y el padding predeterminados para un diseño más limpio */
+    box-sizing: border-box; /* Asegura que el padding y el borde no afecten al tamaño total de los elementos */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna y legible */
+    background-color: #f6f1f1;/* Fondo claro para un aspecto limpio y profesional */
+    color: #000000; /* Color de texto oscuro para mejor legibilidad */
+}
+
+/* Header ajustado con texto en cursiva */
+header {
+    background-color: #8c8888; /* Gris elegante para el fondo del header */
+    color: #fcf8f8; /* Color claro para el texto del header */
+    padding: 27px 250px; /* Más espacio arriba para elegancia */
+    text-align: left; /* Alineación a la izquierda para un estilo más profesional */
+}
+.navbar {
+    text-align: right;  /* alinear el menu a la derecha*/ 
+}
+.nav-link {
+    color: rgb(255, 255, 255);/* Colos del texto del menu*/
+    text-decoration: none; /* Elimina el subrayado de los enlaces*/
+    margin: 0 5px; /* Espacio entre los enlaces del menu*/
+    font-weight: 400;/* Hace el texto del menu más grueso*/
+    font-size: 20px; /* Tamaño del texto del menu*/  
+    display: inline-block;/* Esto permite aplicar padding y transform a los enlaces del menu*/
+}
+
+.h1 {
+    color: #fcfcfc; /* Color claro para destacar el título */
+    font-size: 45px; /* Tamaño grande para destacar el título */
+    margin-bottom: 5px; /* Espacio reducido para que el subtítulo quede más cerca del título */
+}
+
+.h2header {
+    color: #fcfcfc;/* Mismo color que el título para mantener la coherencia */
+    font-size: 22px;/* Tamaño más pequeño para el subtítulo */
+    font-style: italic; /* Como en el ejemplo de Frandy */
+    font-weight: 350;/* Un poco más ligero que el normal para un toque elegante */
+}
+
+/* Contenedor principal Flexbox */
+.container {
+    display: flex;/* Utiliza Flexbox para organizar la imagen y el texto en columnas */
+    align-items: flex-start;/* Alinea el contenido al inicio para que la imagen y el texto estén alineados en la parte superior */
+    gap: 20px; /* Espacio óptimo entre foto y texto */
+    max-width: 1200px;/* Ancho máximo para evitar que se extienda demasiado en pantallas grandes */
+    margin: 10px auto; /* Centrado y con espacio arriba */
+    padding: 0 10px;/* Espacio horizontal para evitar que el contenido toque los bordes en pantallas pequeñas */
+}
+
+/* Ajuste de imagen para que no se deforme */
+.caja-imagen {
+    flex: 0 0 400px; /* Ancho fijo para la columna de imagen */
+}
+
+.img-bio {
+    width: 100%;/* La imagen ocupará todo el ancho de su contenedor para mantener la proporción */
+    height: auto; /* Mantiene la proporción de la imagen para evitar deformaciones */
+    display: block;/* Elimina el espacio debajo de la imagen */
+}
+
+/* Texto y Biografía */
+.caja-texto {
+    flex: 1; /* Ocupa el espacio restante */
+}
+
+.h2biblografia {
+    font-size: 28px;/* Tamaño más grande para destacar el título de la biografía */
+    margin-bottom: 5px;/* Espacio reducido para que quede más cerca del texto */
+    padding-top: 60px; /* Elimina el espacio superior para que quede más cerca del header */
+}
+
+.hrlinea {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 6px solid #939191; /* Grosor similar al ejemplo */
+    margin-bottom: 10px;/* Espacio reducido para que quede más cerca del texto */
+}
+
+.p {
+    font-size: 15px;/* Tamaño de fuente más grande para mejor legibilidad */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la lectura */
+    text-align: left; /* Alineación a la izquierda*/
+}
+
+/* Iconos de redes sociales alineadas a la derecha */
+.redes-sociales {
+    text-align: right; /* Alinea los iconos a la derecha */
+    margin-top: 20px;/* Espacio entre el texto y los iconos */
+}
+
+.icono-red {
+    width: 32px;/* Tamaño de los iconos para que sean visibles pero no demasiado grandes */
+    height: 32px;/* Tamaño de los iconos para que sean visibles pero no demasiado grandes */
+    margin-left: 15px;/*  Espacio entre los iconos para que no estén amontonados */
+    transition: 0.3s;/* Transición suave para el efecto hover */
+    opacity: 0.8;/* Opacidad inicial para un efecto más sutil */
+}
+/* Footer alineado */
+footer {
+    background-color: #8c8888; /* Mismo gris que el header para balance */
+    color: white;/* Color claro para el texto del footer */
+    padding: 50px 250px;/* Más espacio para un aspecto más elegante */
+    margin-top: 10px;/* Espacio entre el contenido y el footer */
+    text-align: left; /* Alineación a la izquierda para un estilo más profesional */
+}

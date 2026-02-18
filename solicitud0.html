@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <H1>Formulario de Solicitud de Servicios <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Claro.svg" width="90" alt="Esta imagen no se puede mostrar"></H1>
+    
+    <p>Solicitud de Servicios Claro Latinoamérica "Bienvenido a nuestro portal de servicios. Por favor, complete los campos a continuación con su información personal y técnica para procesar su solicitud de Internet o Fibra Óptica de manera eficiente."</p>
+
+    <form action="#" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="primernombre">Primer Nombre*:</label></td> 
+                    <td><input type="text" id="primernombre" name="primernombre" required></td>
+                </tr>
+                <tr>
+                    <td><label for="segundo_nombre">Segundo Nombre:</label></td> 
+                    <td><input type="text" id="segundo_nombre" name="segundo_nombre" required></td>
+                </tr>
+                <tr>
+                    <td><label for="primer_apellido">Primer apellido*:</label></td> 
+                    <td><input type="text" id="primer_apellido" name="primer_apellido" required></td>
+                </tr>
+                <tr>
+                    <td><label for="segundo_apellido">Segundo apellido*:</label></td> 
+                    <td><input type="text" id="segundo_apellido" name="segundo_apellido" required></td>
+                </tr>
+                <tr>
+                    <td><label for="sexo">Sexo*:</label></td> 
+                    <td>
+                        <input type="radio" id="masculino" name="sexo" value="Masculino" required> Masculino<br>
+                        <input type="radio" id="femenino" name="sexo" value="Femenino" required> Femenino<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fecha_nacimiento">Fecha de nacimiento*:</label></td>
+                    <td><input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="ciudad_nacimiento">Ciudad de nacimiento*:</label></td> 
+                    <td><input type="text" id="ciudad_nacimiento" name="ciudad_nacimiento" required></td>
+                </tr>
+                <tr>
+                    <td><label for="provincia">Provincia*:</label></td>
+                    <td> 
+                        <select id="provincia" name="provincia" required>
+                            <option value="" disabled selected>Seleccione su provincia</option>
+                            <option value="azua">Azua</option>
+                            <option value="baoruco">Baoruco</option>
+                            <option value="barahona">Barahona</option>
+                            <option value="dajabon">Dajabón</option>
+                            <option value="distrito_nacional">Distrito Nacional</option>
+                            <option value="duarte">Duarte</option>
+                            <option value="el_seibo">El Seibo</option>
+                            <option value="elias_pina">Elías Piña</option>
+                            <option value="espaillat">Espaillat</option>
+                            <option value="hato_mayor">Hato Mayor</option>
+                            <option value="hermanas_mirabal">Hermanas Mirabal</option>
+                            <option value="independencia">Independencia</option>
+                            <option value="la_altagracia">La Altagracia</option>
+                            <option value="la_romana">La Romana</option>
+                            <option value="la_vega">La Vega</option>
+                            <option value="maria_trinidad_sanchez">María Trinidad Sánchez</option>
+                            <option value="monsenor_nouel">Monseñor Nouel</option>
+                            <option value="monte_cristi">Monte Cristi</option>
+                            <option value="monte_plata">Monte Plata</option>
+                            <option value="pedernales">Pedernales</option>
+                            <option value="peravia">Peravia</option>
+                            <option value="puerto_plata">Puerto Plata</option>
+                            <option value="samana">Samaná</option>
+                            <option value="san_cristobal">San Cristóbal</option>
+                            <option value="san_jose_de_ocoa">San José de Ocoa</option>
+                            <option value="san_juan">San Juan</option>
+                            <option value="san_pedro_de_macoris">San Pedro de Macorís</option>
+                            <option value="sanchez_ramirez">Sánchez Ramírez</option>
+                            <option value="santiago">Santiago</option>
+                            <option value="santiago_rodriguez">Santiago Rodríguez</option>
+                            <option value="santo_domingo">Santo Domingo</option>
+                            <option value="valverde">Valverde</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pais_origen">País de origen:</label></td>
+                    <td>
+                        <select id="pais_origen" name="pais_origen" required>
+                            <option value="" disabled selected>Seleccione su país</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="bolivia">Bolivia</option>
+                            <option value="brasil">Brasil</option>
+                            <option value="chile">Chile</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="costa_rica">Costa Rica</option>
+                            <option value="cuba">Cuba</option>
+                            <option value="ecuador">Ecuador</option>
+                            <option value="el_salvador">El Salvador</option>
+                            <option value="guatemala">Guatemala</option>
+                            <option value="haiti">Haití</option>
+                            <option value="honduras">Honduras</option>
+                            <option value="mexico">México</option>
+                            <option value="nicaragua">Nicaragua</option>
+                            <option value="panama">Panamá</option>
+                            <option value="paraguay">Paraguay</option>
+                            <option value="peru">Perú</option>
+                            <option value="puerto_rico">Puerto Rico</option>
+                            <option value="republica_dominicana">República Dominicana</option>
+                            <option value="uruguay">Uruguay</option>
+                            <option value="venezuela">Venezuela</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="estadocivil">Estado Civil*:</label></td> 
+                    <td>
+                        <select id="estado_civil" name="estado_civil" required>
+                            <option value="" disabled selected>Seleccione su estado civil</option>
+                            <option value="soltero">Soltero/a</option>
+                            <option value="casado">Casado/a</option>
+                            <option value="divorciado">Divorciado/a</option>
+                            <option value="viudo">Viudo/a</option>
+                            <option value="union_libre">Unión Libre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="numerodecedula">Numero de Cedula*:</label></td>
+                    <td><input type="number" id="numerodecedula" name="numerodecedula" required></td>
+                </tr>
+                <tr>
+                    <td><label for="numerodecelular">Numero de Celular*:</label></td>
+                    <td><input type="number" id="numerodecelular" name="numerodecelular" required></td>
+                </tr>
+                <tr>
+                    <td><label for="telefonotrabajo">Telefono del trabajo*:</label></td>
+                    <td><input type="number" id="telefonotrabajo" name="telefonotrabajo" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Correo">Correo electronico*:</label></td> 
+                    <td><input type="email" id="Correo" name="Correo" required></td>
+                </tr>
+                <tr>
+                    <td><label for="serviciosolicitado">Servicios a solicitar*:</label></td> 
+                    <td>
+                        <select id="serviciosolicitado" name="serviciosolicitado" required>
+                            <option value="" disabled selected>Seleccione el servicio a solicitar</option>
+                            <option value="internetmovil">Internet Movil</option>
+                            <option value="internetfijo">Internet Fijo</option>
+                            <option value="fibraoptica">Fibra Óptica</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="foto_cliente">Subir Imagen*:</label></td>
+                    <td><input type="file" id="foto_cliente" name="foto_cliente" accept="image/png, image/jpeg, image/jpg" required></td>
+                </tr>
+                <tr>
+                <td><label for="preguntaorganizadores">Cualquier duda dejar un comentario*:</label></td> 
+                    <td>
+                        <textarea id="preguntaorganizadores" name="preguntaorganizadores" required rows="6" cols="21"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                <td><button type="submit" style="width:20%;">Enviar</button></td>
+                <td><button type="reset" style="width:20%;">Limpiar</button></td>
+                </tr>
+
+            </tbody>       
+        </table>
+</body>
+</html>
