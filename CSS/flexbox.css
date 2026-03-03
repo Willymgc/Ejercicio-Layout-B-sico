@@ -50,9 +50,16 @@ h3 {
     margin: 10px 0; /* Espacio arriba y abajo del h3 para separar el texto de otros elementos */
 }
 h2 {
-    color: #6525fcd9; /* Color del texto del h2 */
-    margin: 10px 0; /* Espacio arriba y abajo del h2 para separar el texto de otros elementos */
-    font-size: 2.5em; /* Tamaño del texto del h2 */
+    color: #6525fcd9;
+    margin: 10px 0;
+    font-size: 2.5em;
+    position: relative;
+}
+.currency {
+    font-size: 0.5em;
+    display: inline-block;
+    position: relative;
+    top: 0.25em;   /* desplaza el símbolo hacia abajo */
 }
 h1 {
     color: #fcf8f8; /* Color del texto del h1 */
@@ -73,4 +80,5 @@ a:hover {
     color: #ffffff; /* Color del texto del enlace al pasar el mouse por encima */
     transform: scale(1.05); /* Aumenta ligeramente el tamaño del enlace al pasar el mouse por encima */
     box-shadow: 3px 3px 5px 3px rgba(249, 249, 249, 0.771);/* crea sombra debajo del enlace*/
+
 }
